@@ -102,3 +102,10 @@ body {
   color: var(--red);
   font-weight: 600;
 }
+
+@media screen and (max-width: 375px) {
+  .main-window {
+    flex-direction: column;
+    justify-content: center;
+  }
+}
